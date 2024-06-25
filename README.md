@@ -12,7 +12,7 @@ Get *sniffer.js* from [dist/](https://github.com/drylikov/Sniffer/tree/drylikov/
 <script src="path/to/sniffer.js"></script>
 ```
 
-It will run automatically, collect the information on current device/os/browser and put the result in `window.Sniff` object (see [“Detection results”](#detection-results)). Now you can do horrible things:
+It will run automatically, collect the information on current device/os/browser and put the result in `window.Sniff` object see “Detection results". Now you can do horrible things:
 
 ```js
 if (Sniff.os.name=='android' &&
@@ -42,7 +42,7 @@ html.operamini pre code {
 
 ###2. Use sniffer.pure.js
 
-Get *sniffer.pure.js* from [dist/](https://github.com/wilddeer/Sniffer/tree/master/dist). It contains pure Sniffer function (no wrap, no autolaunch, no css classes), you decide how to use it. Just feed it a user agent string:
+Get *sniffer.pure.js* from [dist/](https://github.com/drylikov/Sniffer/tree/drylikov/dist). It contains pure Sniffer function (no wrap, no autolaunch, no css classes), you decide how to use it. Just feed it a user agent string:
 
 ```js
 Sniffer(userAgent)
@@ -128,9 +128,5 @@ Class names/shortcodes in square brackets.
 - **Mobile** *[mobile]*
 - **TV** *[tv]*
 - **Proxy broswer** (serverside rendering) *[proxy]*
-
-##License
-
-[MIT license](http://opensource.org/licenses/MIT).
 
 Have fun, lads.
